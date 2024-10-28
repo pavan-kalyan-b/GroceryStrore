@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Personal Details</div>
+        <form action="#">
+          <div class="user__details">
+            <div class="input__box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="E.g: Pavan Kalyan" required>
+            </div>
+            <div class="input__box">
+              <span class="details">Email</span>
+              <input type="email" placeholder="pavankalyan@gmail.com" required>
+            </div>
+            <div class="input__box">
+                <span class="details">Phone Number</span>
+                <input type="tel" placeholder="+91 9287376834" required>
+              </div>
+            <div class="input__box">
+              <span class="details">Address Line 1</span>
+              <input type="text" placeholder="Address Line 1" required>
+            </div>
+            <div class="input__box">
+                <span class="details">Address Line 2</span>
+                <input type="text" placeholder="Address Line 2" required>
+              </div>
+            <div class="input__box">
+              <span class="details">Pincode</span>
+              <input type="number" required>
+            </div>
+      
+          </div>
+          <div class="delivery__details">
+            <input type="radio" name="delivery" id="dot-1">
+            <input type="radio" name="delivery" id="dot-2">
+            <input type="radio" name="delivery" id="dot-3">
+            <span class="delivery__title">Where to deliver?</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span>Work</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span>Home</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span>Other</span>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Log In">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
